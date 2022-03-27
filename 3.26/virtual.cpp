@@ -19,7 +19,7 @@ class Person2{
     public:
         string name;
         Person2(string n): name(n){}
-        virtual void print() = 0; 
+        virtual void print() = 0;
 };
 
 class Student: public Person{
